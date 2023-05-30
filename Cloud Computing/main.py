@@ -43,7 +43,7 @@ def RegisterUser():
         user = User(email=email, password=hashed_password)
         db.session.add(user)
         db.session.commit()
-        return "success", 201
+        return "success", 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -77,15 +77,20 @@ def protected():
         return jsonify({"error": "Token is missing"}), 401
 
     try:
-        decoded = jwt.decode(token, app.config['SECRET_KEY'])
+        decoded = jwt.decode(token, app.config['SECRET_KEY'], algorithms=["HS256"]) 
         username = decoded['username']
 
-        return jsonify({"message": f"Hello, {username}! This is protected data."})
+        return jsonify({"message": f"Hello, {username}!"})
 
     except jwt.ExpiredSignatureError:
         return jsonify({"error": "Token has expired"}), 401
     except jwt.InvalidTokenError:
         return jsonify({"error": "Invalid token"}), 401
+    
+@app.route("/logout", methods=["POST"])
+def logout():
+
+    return jsonify({"message": "Logout successful"}), 200
 
 with app.app_context():
     db.create_all()
