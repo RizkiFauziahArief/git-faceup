@@ -20,4 +20,7 @@
     <string name="pass_hint">********</string>
     <string name="dont_have_account">Dont Have Account?</string>
     <string name="register">Register</string>
+    <string name="homepage">Home</string>
+    <string name="camera">Camera</string>
+    <string name="settings">Settings</string>
 </resources>

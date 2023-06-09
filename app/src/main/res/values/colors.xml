@@ -14,4 +14,6 @@
     <color name="red_warning">#FA0055</color>
     <color name="pink_logo">#8D004C</color>
     <color name="blue_logo">#0773AD</color>
+    <color name="background_color_white">#ffffff</color>
+    <color name="toska_variant">#0A1531</color>
 </resources>
