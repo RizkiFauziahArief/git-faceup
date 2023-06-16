@@ -5,7 +5,7 @@ Capstone Project for Bangkit 2023 by team C21-PS205
 
 ## Project Documents
 
- - [Machine Learning](https://)
+ - [Machine Learning](https://github.com/RizkiFauziahArief/git-faceup/tree/main/machine-learning)
  - [Cloud Computing](https://github.com/RizkiFauziahArief/git-faceup/tree/main/cloud-computing)
  - [Mobile Development](https://github.com/RizkiFauziahArief/git-faceup/tree/mobile-development)
 
