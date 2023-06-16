@@ -1,8 +1,10 @@
 # Cloud Computing
 
-## Documentation FaceUp REST API
+## FaceUp REST API Documentation
 
-https://documenter.getpostman.com/view/24719932/2s93sgYBDD
+For API documentation, see the following link
+
+<a href="https://documenter.getpostman.com/view/24719932/2s93sgYBDD">REST API Documentation
 
 # Cloud Service
 
