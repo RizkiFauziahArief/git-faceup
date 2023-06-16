@@ -1,5 +1,15 @@
-# FaceUp
-An Acne analysis mobile application that provides a complete solution, regarding the type of acne including recommendations for the appropriate ingredients to use.
+# FaceUp by C21-PS205
+> This repository is made for Bangkit Capstone Project documentation.
+
+<br />
+<p align="center">
+  <a href="https://github.com/bernandaputri/B21-CAP0325">
+    <img src="cloud-computing/logo2.png" alt="Logo" width="200" height="200">
+  </a>
+
+  <h2 align="center">FaceUp "Keep your face up!"</h2>
+
+Acne analysis mobile application that provides a complete solution, regarding the type of acne including recommendations for the appropriate ingredients to use.
 
 Capstone Project for Bangkit 2023 by team C21-PS205
 
