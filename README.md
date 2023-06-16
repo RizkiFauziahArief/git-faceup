@@ -8,7 +8,7 @@ Capstone Project for Bangkit 2023 by team C21-PS205
 
 ## Team Members
 |       Name              | Bangkit Student ID	  | Learning Path        |
-|     :------------       |:---------------:      | -----:               |
+|     :------------:      |:---------------:      | :-----:              |
 |  Raihanny Athifa Zahra  | M169DSY1294           |  Machine Learning    |
 |  Yunike Warda Nabila    | M169DSY1555           |  Machine Learning    |
 |  Rizki Fauziah Arief    | C339DSY0830           |  Cloud Computing     |
