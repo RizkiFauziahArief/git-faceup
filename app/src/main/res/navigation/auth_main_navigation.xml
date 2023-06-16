@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.faceup.ui.splashscreen.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homePage"
+            app:destination="@id/homePage"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homePageActivity"
+            app:destination="@id/homePageActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.faceup.ui.onboarding.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.faceup.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homePage"
+            app:destination="@id/homePage"
+            app:popUpTo="@id/main_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_homePageActivity"
+            app:destination="@id/homePageActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.faceup.ui.register.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.faceup.ui.homepage.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue='nama' />
+        <action
+            android:id="@+id/action_homePage_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homePage_to_detailFragment22"
+            app:destination="@id/detailFragment2" />
+        <action
+            android:id="@+id/action_homePage_to_bottomSheetChoosePictureFragment"
+            app:destination="@id/bottomSheetChoosePictureFragment" />
+        <action
+            android:id="@+id/action_homePage_to_konsulFragment"
+            app:destination="@id/konsulFragment" />
+        <action
+            android:id="@+id/action_homePage_to_klinikFragment"
+            app:destination="@id/klinikFragment" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="email" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.faceup.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.faceup.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="name" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="email" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.faceup.ui.camera_sementara.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/detailFragment2"
+        android:name="com.example.faceup.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detailFragment2_to_bottomSheetProductFragment"
+            app:destination="@id/bottomSheetProductFragment" />
+        <argument
+            android:name="flag"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetProductFragment"
+        android:name="com.example.faceup.ui.bottomsheet.product.BottomSheetProductFragment"
+        android:label="BottomSheetProductFragment" />
+    <activity
+        android:id="@+id/homePageActivity"
+        android:name="com.example.faceup.ui.activity.HomePageActivity"
+        android:label="activity_home_page"
+        tools:layout="@layout/activity_home_page" />
+    <dialog
+        android:id="@+id/bottomSheetChoosePictureFragment"
+        android:name="com.example.faceup.ui.bottomsheet.picture.BottomSheetChoosePictureFragment"
+        android:label="fragment_bottom_sheet_choose_picture"
+        tools:layout="@layout/fragment_bottom_sheet_choose_picture" >
+        <action
+            android:id="@+id/action_bottomSheetChoosePictureFragment_to_detailFragment2"
+            app:destination="@id/detailFragment2" />
+    </dialog>
+    <fragment
+        android:id="@+id/klinikFragment"
+        android:name="com.example.faceup.ui.futurework.KlinikFragment"
+        android:label="fragment_klinik"
+        tools:layout="@layout/fragment_klinik" />
+    <fragment
+        android:id="@+id/konsulFragment"
+        android:name="com.example.faceup.ui.futurework.KonsulFragment"
+        android:label="fragment_konsul"
+        tools:layout="@layout/fragment_konsul" />
+</navigation>

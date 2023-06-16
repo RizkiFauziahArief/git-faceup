@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">FaceUp</string>
+    <string name="title_menu_1">Detect your acne type</string>
+    <string name="title_menu_2">We will give you solution</string>
+    <string name="title_menu_3">Recomending the best skincare for your problem</string>
+    <string name="title_menu_4">Live Consultation with expert</string>
+    <string name="desc_menu_1">We can Help you to solve your acne problem. Start detection so we can know your acne problem </string>
+    <string name="desc_menu_2">We provide solution for your acne type, we will make sure you handling action is save for your acne type</string>
+    <string name="desc_menu_3">With our recomendation skincare product, we make sure its save for your acne type</string>
+    <string name="desc_menu_4">You can Consultation live with expert of your acne problem </string>
+    <string name="btn_begin">lets start</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="login_desc">Lets Solve your acne problem and keep you face up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_example">youremail@ex.dom</string>
+    <string name="pass_hint">********</string>
+    <string name="dont_have_account">Dont Have Account?</string>
+    <string name="register">Register</string>
+    <string name="homepage">Home</string>
+    <string name="camera">Camera</string>
+    <string name="settings">Settings</string>
+    <string name="hello_name">Hello</string>
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <string name="sentuk_untuk_memulai_scan">Sentuh Untuk Memulai Scan</string>
+    <string name="kenali_jerawatmu_cegah_agar_tidak_lebih_parah">Kenali Jerawatmu Cegah Agar Tidak Lebih Parah!</string>
+    <string name="cautionText">Agar Mendapatkan Hasil Yang lebih Akurat Ambillah Foto Sedekat Mungkin Dengan Jerawatnya!</string>
+    <string name="ok">Ok</string>
+    <string name="konsultasi_dengan_dokter">Konsultasi Dokter</string>
+    <string name="klinik_terdekat">Klinik Terdekat</string>
+    <string name="artikel">Artikel</string>
+
+    <!--desc jenis jerawat -->
+    <string name="desc_blackheads">Occur when a pore is clogged by a combination of sebum and dead skin cells. The top of the pore stays open, despite the rest of it being clogged. This results in the characteristic black color seen on the surface.</string>
+    <string name="desc_nodules">Occur when clogged, swollen pores endure further irritation and grow larger. Unlike pustules and papules, nodules are deeper underneath the skin</string>
+    <string name="desc_papule">Occur when the walls surrounding your pores break down from severe inflammation. This results in hard, clogged pores that are tender to the touch. The skin around these pores is usually pink</string>
+    <string name="desc_pustules">Form when the walls around your pores break down. Unlike papules, pustules are filled with pus. These bumps come out from the skin and are usually red in color. They often have yellow or white heads on top.</string>
+    <string name="desc_whitehead">Form when a pore gets clogged by sebum and dead skin cells. But unlike with blackheads, the top of the pore closes up. It looks like a small bump protruding from the skin</string>
+
+    <!--desc penanganan blackheads jerawat -->
+    <string name="pen_blackheads_1">Salicylic Acid helps clear away dead skin cells.</string>
+    <string name="pen_blackheads_2">Benzoyl Peroxide kills bacteria.</string>
+    <string name="pen_blackheads_3">Glycolic Acid exfoliating the top skin layer.</string>
+    <string name="pen_blackheads_4">Isotretinoin is made from vitamin A</string>
+
+    <!--desc penanganan nodules jerawat -->
+    <string name="pen_nodules_1">Salicylic Acid helps clear away dead skin cells.</string>
+    <string name="pen_nodules_2">Benzoyl Peroxide kills bacteria.</string>
+    <string name="pen_nodules_3">Adapalane treats to prevent blocked pores.</string>
+    <string name="pen_nodules_4">Isotretinoin is made from vitamin A.</string>
+
+    <!--desc penanganan papule jerawat -->
+    <string name="pen_papule_1">Azelaic acid kills microorganisms on your skin.</string>
+    <string name="pen_papule_2">Benzoyl Peroxide kills bacteria.</string>
+    <string name="pen_papule_3">Salicylic Acid helps clear away dead skin cells.</string>
+    <string name="pen_papule_4">Isotretinoin is made from vitamin A</string>
+
+
+    <!--desc penanganan pustules jerawat -->
+    <string name="pen_pustules_1">Benzoyl Peroxide kills bacteria, unclogs pores.</string>
+    <string name="pen_pustules_2">Salicylic Acid helps clear away dead skin cells.</string>
+    <string name="pen_pustules_3">Adapalane treats acne by helping to prevent blocked pores</string>
+    <string name="pen_pustules_4">Isotretinoin is made from vitamin A</string>
+
+
+    <!--desc penanganan whitehead jerawat -->
+    <string name="pen_whitehead_1">Benzoyl Peroxide kills bacteria, unclogs pores</string>
+    <string name="pen_whitehead_2">alicylic Acid helps clear away dead skin cells</string>
+    <string name="pen_whitehead_3">Witch hazel is natural astringent to help the skin cells to shrink</string>
+    <string name="pen_whitehead_4">Isotretinoin is made from vitamin A</string>
+
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non lectus porta, gravida nisl et, consectetur ipsum. Ut hendrerit lacus ex, varius tristique massa posuere ullamcorper. Aenean in rhoncus tortor. Sed ullamcorper, magna non molestie dictum, turpis erat commodo lectus, eget dapibus augue mauris euismod nunc.</string>
+    <string name="aplikasi_dalam_tahap_pengembangan">Aplikasi Dalam Tahap Pengembangan</string>
+    <string name="tittle">Tittle</string>
+    <string name="regist">Regist</string>
+
+
+</resources>
