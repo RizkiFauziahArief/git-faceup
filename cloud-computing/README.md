@@ -24,3 +24,4 @@ Region            : asia-southeast2 (jakarta)
 Storage           : 628.74 MB
 
 ## Cloud Run
+
