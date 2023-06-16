@@ -27,3 +27,10 @@ Storage           : 628.74 MB
 
 ## Cloud Run
 
+Service Name       : api-faceup-capstone
+
+Region             : australia-southeast1 (sydney)
+
+Container Port     : 8080
+
+Capacity           : Memori (1 GiB), CPU (1)
