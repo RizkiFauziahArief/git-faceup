@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bernandaputri/B21-CAP0325">
-    <img src="cloud-computing/logo2.png" alt="Logo" width="200" height="200">
+    <img src="img/logofaceup.png" alt="Logo" width="200" height="200">
   </a>
 
   <h2 align="center">FaceUp "Keep your face up!"</h2>
