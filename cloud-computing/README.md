@@ -15,5 +15,12 @@ https://documenter.getpostman.com/view/24719932/2s93sgYBDD
 
 ## Cloud SQL
 
+Instance ID       : db-capstone-project
+
+Database Version  : MySQL 5.7
+
+Region            : asia-southeast2 (jakarta)
+
+Storage           : 628.74 MB
 
 ## Cloud Run
