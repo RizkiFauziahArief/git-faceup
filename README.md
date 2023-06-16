@@ -1,4 +1,4 @@
-# FaceUp by C21-PS205
+# FaceUp by C23-PS205
 > This repository is made for Bangkit Capstone Project documentation.
 
 <br />
