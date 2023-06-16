@@ -1,0 +1,12 @@
+Flask
+Werkzeug
+Pillow
+Keras
+numpy
+PyJWT
+keras-preprocessing
+python-dotenv
+Flask-SQLAlchemy
+PyMySQL
+tensorflow
+mysqlclient
