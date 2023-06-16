@@ -6,6 +6,9 @@ https://documenter.getpostman.com/view/24719932/2s93sgYBDD
 
 # Cloud Service
 
+<p align="center">
+<img src="../img/cc1.png" alt="Logo">
+
 ## Cloud SQL
 
 Instance ID       : db-capstone-project
