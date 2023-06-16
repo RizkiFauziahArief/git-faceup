@@ -1,7 +1,8 @@
 # Mobile Development
 Mobile Development Team
-+Zain Zaidan Ahsan/A375DKX4172
-+Ahmad Fadlurrahman/A375DSX1696 
+
+Zain Zaidan Ahsan/A375DKX4172
+Ahmad Fadlurrahman/A375DSX1696 
 
 ScreenShot Our App
 
