@@ -11,7 +11,7 @@
 
 Acne analysis mobile application that provides a complete solution, regarding the type of acne including recommendations for the appropriate ingredients to use.
 
-Capstone Project for Bangkit 2023 by team C21-PS205
+Capstone Project for Bangkit 2023 by team C23-PS205
 
 # Project Documents
 
