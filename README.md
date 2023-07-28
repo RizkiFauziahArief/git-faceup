@@ -2,7 +2,7 @@
 > This repository is made for Bangkit Capstone Project documentation.
 <br />
 <p align="center">
-  <a href="https://github.com/bernandaputri/B21-CAP0325">
+  <a href="https://github.com/RizkiFauziahArief/git-faceup">
     <img src="img/logofaceup.png" alt="Logo" width="200" height="200">
   </a>
   <h2 align="center">FaceUp "Keep your face up!"</h2>
